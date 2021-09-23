@@ -134,7 +134,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
             } else {
                 $this->response([
                     "status" => 0,
-                    "message" => " Gagal Update Image Profil , Coba lagi nanti..."
+                    "message" => "Oops!, Failed upload image!"
                 ], REST_Controller::HTTP_BAD_REQUEST);
             }
         }
